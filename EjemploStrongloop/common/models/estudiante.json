@@ -1,0 +1,32 @@
+{
+  "name": "Estudiante",
+  "plural": "Estudiantes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Cedula": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Telefono": {
+      "type": "number",
+      "default": 0
+    },
+    "Universidad": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
